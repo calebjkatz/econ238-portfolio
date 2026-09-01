@@ -1,2 +1,2 @@
-# econ238-portfolio
-ECON 238 with Professor Rizzo
+Caleb Katz - ECON 238 Portfolio
+Environmental Economics, Fall 2026, University of Rochester
