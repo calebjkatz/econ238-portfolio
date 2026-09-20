@@ -13,3 +13,9 @@ An examination of data center water use, local infrastructure capacity, and comm
 [Econ 238 Get Outside Project: NY State Fair](week-two-get-outside.md)
 
 A video project exploring the New York State Fair, with accompanying source links.
+
+## Week Three
+
+[Can America Still Build? Trust, Regulation, and the Environmental Economy](week-three-environmental-economy.md)
+
+A discussion and synthesis on institutional trust, environmental review, and America’s ability to build.
