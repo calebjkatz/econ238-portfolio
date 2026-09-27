@@ -19,3 +19,9 @@ A video project exploring the New York State Fair, with accompanying source link
 [Can America Still Build? Trust, Regulation, and the Environmental Economy](week-three-environmental-economy.md)
 
 A discussion and synthesis on institutional trust, environmental review, and America’s ability to build.
+
+## Week Four
+
+[Extreme Weather, Risk, and Adaptation](homework-4/)
+
+A draft publication on mortality, migration, and adaptation. Final data, analysis, and poster are pending.
