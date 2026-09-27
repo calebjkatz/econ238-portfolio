@@ -1,0 +1,6 @@
+measure,period,display_value,definition,source_url,source_location
+Exposed households,1999,~11 million,"Expansive FEMA parcel-level definition: A, V, or 500-year floodplains",https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-37.pdf,"Section 3.1; Figure 2; printed pp. 9–10"
+Exposed households,2023,>15 million,"Expansive FEMA parcel-level definition: A, V, or 500-year floodplains",https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-37.pdf,"Section 3.1; Figure 2; printed pp. 9–10"
+Share of households exposed,1999–2023,Approximately 14.2%–14.4%,Range over the study period; not a pair of endpoint estimates,https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-37.pdf,"Section 3.1; Figure 2; printed p. 10"
+Census-block migration measure,1999–2023,Increasing net migration toward floodplain blocks,Block-level exposure classification,https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-37.pdf,"Section 3.1; Figure 3; printed pp. 10–11"
+Parcel-level migration measure,1999–2023,Essentially no net migration toward flood-risk parcels,Parcel-level inflows and outflows roughly balanced,https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-37.pdf,"Section 3.1; Figure 3; printed pp. 10–11"

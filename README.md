@@ -22,6 +22,6 @@ A discussion and synthesis on institutional trust, environmental review, and Ame
 
 ## Week Four
 
-[Extreme Weather, Risk, and Adaptation](homework-4/)
+[Risk Didn't Disappear. Vulnerability Changed.](homework-4/)
 
-A draft publication on mortality, migration, and adaptation. Final data, analysis, and poster are pending.
+A data story on weather mortality, flood exposure, and adaptation, with a downloadable 18 × 24 poster.

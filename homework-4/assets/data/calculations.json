@@ -1,0 +1,17 @@
+{
+  "calculated_rates": [
+    1.905053803425756,
+    1.8776953349309304,
+    1.47151785579125,
+    1.4093545324132888,
+    0.7326019692475976,
+    0.6467889630812407,
+    0.8013824952108988,
+    0.6109599022757267
+  ],
+  "population_adjusted_decline_percent": 67.92951982893763,
+  "raw_death_decline_percent": 25.61951963400687,
+  "population_growth_percent": 131.92817809166337,
+  "rate_formula": "combined_avg_deaths / average_population * 1000000",
+  "plotted_rates": "supplied deaths_per_million values; exact derived rates retained above"
+}

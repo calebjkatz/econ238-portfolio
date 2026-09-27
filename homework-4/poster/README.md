@@ -1,9 +1,9 @@
-# Final poster pending
+# 18 × 24 inch poster
 
-Add the real, final 18 × 24 inch PDF here, named exactly:
+`Caleb_Katz_Econ238_HW4_Poster.pdf` is the finished one-page portrait poster. Both publication download links point directly here and work without JavaScript.
 
-`Caleb_Katz_Econ238_HW4_Poster.pdf`
+- `poster.html`: generated print HTML using the shared flood summary table and vector charts.
+- `poster.css`: exact `@page { size: 18in 24in; margin: 0; }` print layout.
+- PDF MediaBox: 1296 × 1728 points (18 × 24 inches at 72 points/inch).
 
-No placeholder PDF is included. Both page links already point to this relative location. The page checks for an available PDF and enables both download links automatically; otherwise they remain visibly unavailable.
-
-Before final submission, ensure the PDF matches the webpage's final story, figures, units, dates, and sources. Confirm its actual page size is 18 × 24 inches, then remove any stale “poster pending” text from the main draft notice and completion checklist. For a no-JavaScript publication, also remove `aria-disabled` and `tabindex` from both links and update their status notes after adding the PDF.
+Edit `../scripts/templates/poster.html` and rebuild using the commands in `../README.md`. The PDF exporter validates page count, dimensions, image loading, and content overflow. Print at actual size / 100%, without scaling to Letter or A4.

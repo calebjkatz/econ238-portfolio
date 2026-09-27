@@ -1,26 +1,39 @@
-# Extreme Weather, Risk, and Adaptation
+# Risk Didn't Disappear. Vulnerability Changed.
 
-Public-facing Homework 4 draft. `index.html` is a standalone static page; it needs no Jekyll layout, theme change, package installation, or build step. Styles and the poster availability script are isolated under `assets/`. Existing assignments remain unchanged.
+Completed Homework 4 webpage and matching one-page 18 × 24 inch poster. Existing assignments are unchanged. The only evidence-provenance limitation is the exact annual population extract/vintage: supplied decade populations are preserved, but several do not reconcile to the linked historical archive. This is disclosed in the webpage and poster.
 
-## Finish the publication
+## Source of truth
 
-1. Edit the headline and opening in `index.html` to reflect the final supported finding.
-2. Populate the header-only files in `data/` with verified inputs, retaining source URLs and methods. Add final figures in `images/` and replace the three clearly labeled figure placeholders. No invented values or chart traces have been included.
-3. Replace the migration framing with the final 150–250 word evidence-based interpretation. Hurricanes are the selected hazard. Document exposure classification and distinguish domestic migration from natural increase and international immigration.
-4. Complete mortality findings, comparison of rates and counts, economics interpretation, and the Burke intervention assessment. Keep NWS event counts and model-estimated temperature-attributable mortality separate.
-5. Add `poster/Caleb_Katz_Econ238_HW4_Poster.pdf` (18 × 24 inches). Both relative links enable when the server returns an actual PDF content type. Do not create an empty or fake PDF.
-6. Update sources, dates, definitions, chart descriptions, and methods to match the final data. Resolve the visible pending notices and then remove the draft status. Revise the caveat and conclusion if the findings require it.
+- `assets/data/weather_mortality_decades.csv`: the nine periods supplied by Caleb, unchanged. All 27 hazard averages independently match the NWS 1940–2025 annual table to the supplied precision. The 2020–25 period is partial and includes preliminary 2025 data.
+- `assets/data/population_decades.csv`: eight supplied complete-decade populations, mortality averages, and three-decimal rates, unchanged. No population average was silently substituted.
+- `assets/data/flood_migration_summary.csv`: published qualitative/approximate results, not a fabricated annual time series. Approximation signs and the block/parcel distinction are retained.
+- `scripts/templates/page.html` and `scripts/templates/poster.html`: editable prose. Edit these, then rebuild, rather than editing generated outputs.
+- `assets/style.css` and `poster/poster.css`: webpage and physical print layouts.
 
-## Preview
+## Rebuild
+
+Python 3 with Matplotlib is required for figures. Node.js with `playwright-core` and `pdf-lib`, plus Chrome/Chromium, is required for PDF export. Dependencies need not be installed in this repository.
 
 From the repository root:
 
 ```sh
-python3 -m http.server 8000
+python3 homework-4/scripts/build_charts.py
+python3 homework-4/scripts/build_publication.py
+node homework-4/scripts/export_poster.cjs
 ```
 
-Open `http://localhost:8000/homework-4/`. Existing Markdown assignments require GitHub Pages/Jekyll to render; this HTML page works directly. A PDF request returns 404 until the real poster is added; that is handled as an unavailable download, not a functioning link.
+When Node dependencies are installed elsewhere, set `NODE_PATH` to that installation's `node_modules` directory. Set `CHROME_EXECUTABLE` if Chrome is not in its standard macOS location. The exporter opens the local print HTML, checks loaded images and overflow, and verifies exactly one 1296 × 1728 point page before writing the PDF. This equals 18 × 24 inches at 72 points per inch. It does not shrink a multipage document to fit.
 
-The homepage links to `homework-4/`. All local asset and navigation links are relative to support the repository's existing GitHub Pages base path.
+The QR code is a vector SVG linking to `https://calebjkatz.github.io/econ238-portfolio/homework-4/`; it is fixed unless the publication URL changes. It was generated with the `qrcode` Node package using error correction M and a four-module margin.
 
-Only public publication material belongs here. Never add the private EETT Brainstorm Log #2 or a full homework packet.
+`build_charts.py` validates category sums, supplied rate rounding, period completion, and cross-file consistency; generates the two vector SVGs; and writes derived calculations and HTML data tables. `build_publication.py` inserts the same CSV-derived tables into the webpage and poster. No chart observation is independently hard-coded in SVG or HTML.
+
+## Calculations
+
+Death intensity = average annual combined deaths / average decade population × 1,000,000. Relative decline = 1 − (2010s intensity / 1940s intensity). The unrounded result is approximately 67.9295%; raw deaths decline approximately 25.6195%. See `assets/data/calculations.json`.
+
+Do not infer that adaptation caused this decline. Hazard changes, exposure, composition, event timing, reporting, and classification can also affect the comparison. NWS hurricane counts do not include every associated tropical-cyclone death. NWS reporting geography and national population normalization are discussed in the methods.
+
+## Preview and publication
+
+Run `python3 -m http.server 8000` from the repository root, then open `http://localhost:8000/homework-4/`. All styles, figures, data links, and poster links are relative. Both poster links work without JavaScript. The original EETT Brainstorm Log is private and is not included.
