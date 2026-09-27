@@ -1,6 +1,6 @@
 # Risk Didn't Disappear. Vulnerability Changed.
 
-Completed Homework 4 webpage and matching one-page 18 × 24 inch poster. Existing assignments are unchanged. The only evidence-provenance limitation is the exact annual population extract/vintage: supplied decade populations are preserved, but several do not reconcile to the linked historical archive. This is disclosed in the webpage and poster.
+Completed Homework 4 webpage and matching one-page 18 × 24 inch poster. Existing assignments are unchanged. Population-adjusted rates use decade-average national population estimates tied to U.S. Census historical/intercensal source families; because definitions and estimate vintages change across the long time span, the denominator is treated as a descriptive national normalization rather than a perfectly harmonized matched-geography series.
 
 ## Source of truth
 
