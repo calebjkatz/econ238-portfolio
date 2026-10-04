@@ -73,7 +73,7 @@
     "reference": {
       "value": 300,
       "unit": "micrograms RAE/day",
-      "kind": "U.S. RDA ages 1\u20133, comparison benchmark only",
+      "kind": "U.S. RDA ages 1–3, comparison benchmark only",
       "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
     },
     "conventionalBeta": {
@@ -89,7 +89,21 @@
     "health outcome model",
     "unequal food distribution",
     "causal yield premium",
-    "life-cycle emissions"
+    "life-cycle emissions",
+    "measured fuel, tillage, irrigation, fertilizer, or pesticide-use change"
   ],
-  "checked": "2026-10-04"
+  "checked": "2026-10-04",
+  "derived_outputs": {
+    "matchedLand": {
+      "unit": "ha",
+      "formula": "area / (1 - adoption_fraction + adoption_fraction * relative_yield_fraction)",
+      "interpretation": "Land required to preserve the all-conventional rice-output baseline under the selected planting mix."
+    },
+    "fieldworkIndex": {
+      "unit": "index; all-conventional baseline = 1.0",
+      "formula": "matchedLand / area",
+      "interpretation": "Area-scaled proxy for total field operations if tillage, fuel, irrigation, fertilizer, and crop-protection effort per hectare are unchanged.",
+      "limitation": "Not a measured input-use result and not evidence that each individual input changes in exact proportion to land area."
+    }
+  }
 }
