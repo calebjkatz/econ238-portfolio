@@ -14,7 +14,9 @@
     const betaPlate=betaStored*p.cooking/100;
     const vitaminA=betaPlate/p.conversion;
     const portionVitaminA=p.portion*p.dryMatter*goldenMassShare*p.concentration*(p.storage/100)*(p.cooking/100)/p.conversion;
-    return {baselineRice,goldenRice,conventionalRice,totalRice,goldenMassShare,betaHarvest,betaStored,betaPlate,vitaminA,portionVitaminA,portionPercent:portionVitaminA/p.reference*100,matchedLand:p.area/(1-a+a*r),riceChange:(totalRice/baselineRice-1)*100};
+    const matchedLand=p.area/(1-a+a*r);
+    const fieldworkIndex=matchedLand/p.area;
+    return {baselineRice,goldenRice,conventionalRice,totalRice,goldenMassShare,betaHarvest,betaStored,betaPlate,vitaminA,portionVitaminA,portionPercent:portionVitaminA/p.reference*100,matchedLand,fieldworkIndex,riceChange:(totalRice/baselineRice-1)*100};
   }
   const api={defaults,calculate};
   if(typeof module!=='undefined'&&module.exports) module.exports=api;
