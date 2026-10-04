@@ -23,7 +23,7 @@ function initialize(){
   const v=calculate(params), rows=[['type','name','value','unit']];
   const units={area:'ha',yield:'t paddy/ha/harvest',milling:'fraction',dryMatter:'fraction',adoption:'percent of planted area',relativeYield:'percent of conventional yield',concentration:'micrograms beta-carotene/g dry matter',storage:'percent retained',cooking:'percent retained',conversion:'micrograms beta-carotene per microgram vitamin A activity',portion:'g uncooked rice',reference:'micrograms RAE/day'};
   Object.entries(params).forEach(([k,n])=>rows.push(['input',k,n,units[k]]));
-  const outputUnits={baselineRice:'t milled rice',goldenRice:'t milled rice',conventionalRice:'t milled rice',totalRice:'t milled rice',goldenMassShare:'fraction',betaHarvest:'g beta-carotene',betaStored:'g beta-carotene',betaPlate:'g beta-carotene',vitaminA:'g modeled vitamin A activity',portionVitaminA:'micrograms modeled vitamin A activity',portionPercent:'percent of selected reference',matchedLand:'ha',riceChange:'percent'};
+  const outputUnits={baselineRice:'t milled rice',goldenRice:'t milled rice',conventionalRice:'t milled rice',totalRice:'t milled rice',goldenMassShare:'fraction',betaHarvest:'g beta-carotene',betaStored:'g beta-carotene',betaPlate:'g beta-carotene',vitaminA:'g modeled vitamin A activity',portionVitaminA:'micrograms modeled vitamin A activity',portionPercent:'percent of selected reference',matchedLand:'ha',fieldworkIndex:'index; conventional baseline = 1.0',riceChange:'percent'};
   Object.entries(v).forEach(([k,n])=>rows.push(['output',k,n,outputUnits[k]]));
   const csv=rows.map(row=>row.map(x=>'"'+String(x).replaceAll('"','""')+'"').join(',')).join('\r\n');
   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='golden-rice-scenario.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);$('status').textContent='Scenario downloaded with inputs, outputs, and units.';
@@ -42,6 +42,7 @@ function update(){
  $('portion-label').textContent=params.portion+' g';
  $('portion-percent').textContent=format(v.portionPercent,1)+'% of a '+params.reference+' µg daily reference';
  $('land-result').textContent=format(v.matchedLand,1)+' ha';
+ $('fieldwork-result').textContent=format(v.fieldworkIndex,2)+'×';
  let message;
  if(params.adoption===0)message='All 100 hectares remain conventional. The model credits no additional beta-carotene from Golden Rice; other sources of vitamin A are outside the comparison.';
  else if(params.storage===0||params.cooking===0)message='At zero retention, none of the modeled beta-carotene reaches the plate. Producing the trait is only one step in delivering its nutritional benefit.';
