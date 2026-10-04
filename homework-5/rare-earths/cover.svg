@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#071d22"/>
+<text x="72" y="88" fill="#7fc1bd" font-family="Arial" font-size="22" font-weight="700" letter-spacing="5">ECON 238 · RARE EARTH SUPPLY CHAIN</text>
+<text x="72" y="250" fill="#fff6ea" font-family="Georgia" font-size="126" font-weight="700">MINE</text>
+<text x="440" y="250" fill="#c9932f" font-family="Georgia" font-size="126">≠</text>
+<text x="560" y="250" fill="#fff6ea" font-family="Georgia" font-size="126" font-weight="700">MAGNET</text>
+<text x="75" y="320" fill="#b9c8c9" font-family="Arial" font-size="28">Why the U.S. can mine rare earths and still depend on China</text>
+<g transform="translate(75 420)" font-family="Arial">
+<rect width="220" height="88" fill="#17353b"/><text x="24" y="35" fill="#7fc1bd" font-size="14">01</text><text x="24" y="65" fill="white" font-size="26">MINE</text>
+<text x="244" y="54" fill="#c9932f" font-size="34">→</text>
+<rect x="285" width="220" height="88" fill="#17353b"/><text x="309" y="35" fill="#7fc1bd" font-size="14">02</text><text x="309" y="65" fill="white" font-size="26">SEPARATE</text>
+<text x="529" y="54" fill="#c9932f" font-size="34">→</text>
+<rect x="570" width="220" height="88" fill="#17353b"/><text x="594" y="35" fill="#7fc1bd" font-size="14">03</text><text x="594" y="65" fill="white" font-size="26">REFINE</text>
+<text x="814" y="54" fill="#c9932f" font-size="34">→</text>
+<rect x="855" width="220" height="88" fill="#a85735"/><text x="879" y="35" fill="#ffe0aa" font-size="14">04</text><text x="879" y="65" fill="white" font-size="26">MAKE</text>
+</g>
+<text x="75" y="610" fill="#82999c" font-family="Arial" font-size="18">Caleb Katz · University of Rochester · October 2026</text>
+</svg>
