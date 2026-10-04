@@ -1,0 +1,6 @@
+trial,golden_plot_g,conventional_plot_g,p_value,yield_ratio,source_table,source,golden_reported_plusminus_g,conventional_reported_plusminus_g
+IRRI · 2015 wet,337.9,327.5,0.121,1.0317557251908396,Tab1,https://doi.org/10.1038/s41598-021-82001-0,4.9,11.4
+IRRI · 2016 dry,807.5,821.0,0.711,0.9835566382460414,Tab1,https://doi.org/10.1038/s41598-021-82001-0,6.3,35.8
+IRRI · 2016 wet,705.6,878.1,0.014,0.8035531260676461,Tab1,https://doi.org/10.1038/s41598-021-82001-0,12.0,68.0
+PhilRice · 2016 dry,376.8,404.9,0.583,0.930600148184737,Tab2,https://doi.org/10.1038/s41598-021-82001-0,5.0,17.4
+PhilRice · 2016 wet,654.7,681.3,0.658,0.9609569939820932,Tab2,https://doi.org/10.1038/s41598-021-82001-0,9.8,55.5

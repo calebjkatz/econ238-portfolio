@@ -25,3 +25,9 @@ A discussion and synthesis on institutional trust, environmental review, and Ame
 [Risk Didn't Disappear. Vulnerability Changed.](homework-4/)
 
 A data story on weather mortality, flood exposure, and adaptation, with a downloadable 18 × 24 poster.
+
+## Week Five — SHOW ME
+
+[Golden Rice: Same Land. More Nourishment?](homework-5/golden-rice/)
+
+An interactive comparison of nutrition from existing farmland, with measured yield comparisons, history, beneficiaries, and adoption tradeoffs. Class-list topic FOOD-59.

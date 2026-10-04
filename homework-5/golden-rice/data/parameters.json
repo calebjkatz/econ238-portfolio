@@ -1,0 +1,95 @@
+{
+  "scope": "One hypothetical harvest in the Philippines. GR2E/PSBRc82 composition; independent matched breeding-line yield comparisons. Not a national forecast.",
+  "parameters": {
+    "area": {
+      "value": 100,
+      "unit": "ha",
+      "kind": "illustrative scale"
+    },
+    "yield": {
+      "value": 4,
+      "unit": "t paddy/ha/harvest",
+      "kind": "illustrative baseline; not a measured treatment mean"
+    },
+    "milling": {
+      "value": 0.65,
+      "unit": "fraction of paddy mass",
+      "kind": "approximate pilot milling recovery, assumed equal for both crops",
+      "source": "https://doi.org/10.1038/s41598-026-48565-5"
+    },
+    "dryMatter": {
+      "value": 0.86,
+      "unit": "fraction of uncooked milled mass",
+      "kind": "assumed 14% moisture; not a table measurement"
+    },
+    "adoption": {
+      "value": 100,
+      "unit": "percent of cultivated area",
+      "kind": "scenario"
+    },
+    "relativeYield": {
+      "value": 100,
+      "unit": "percent of conventional yield",
+      "kind": "scenario; matched comparisons supplied separately"
+    },
+    "concentration": {
+      "value": 3.57,
+      "range": [
+        1.96,
+        7.31
+      ],
+      "unit": "micrograms all-trans-beta-carotene/g dry milled grain",
+      "kind": "measured mean and sample range (not confidence interval)",
+      "source": "https://doi.org/10.1021/acs.jafc.9b01524",
+      "location": "Table 5"
+    },
+    "storage": {
+      "value": 75,
+      "unit": "percent beta-carotene retained",
+      "kind": "illustrative sensitivity assumption; no storage duration inferred"
+    },
+    "cooking": {
+      "value": 80,
+      "unit": "percent beta-carotene retained",
+      "kind": "assumption in 2019 article, based on unpublished IRRI data",
+      "source": "https://doi.org/10.1021/acs.jafc.9b01524",
+      "location": "Table 6 footnote e"
+    },
+    "conversion": {
+      "value": 12,
+      "alternative": 3.8,
+      "unit": "micrograms beta-carotene per microgram vitamin A activity",
+      "kind": "standard dietary RAE accounting; alternative from five healthy adults",
+      "sources": [
+        "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+        "https://doi.org/10.3945/ajcn.2008.27119"
+      ]
+    },
+    "portion": {
+      "value": 100,
+      "unit": "g uncooked milled rice",
+      "kind": "illustrative portion; mixture in harvest mass proportions"
+    },
+    "reference": {
+      "value": 300,
+      "unit": "micrograms RAE/day",
+      "kind": "U.S. RDA ages 1\u20133, comparison benchmark only",
+      "source": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+    },
+    "conventionalBeta": {
+      "value": 0,
+      "unit": "micrograms/g",
+      "kind": "modeled as zero; control measured below quantification, not proven absolute zero"
+    }
+  },
+  "excluded": [
+    "other provitamin A carotenoids",
+    "other foods",
+    "additional postharvest food waste",
+    "health outcome model",
+    "unequal food distribution",
+    "causal yield premium",
+    "life-cycle emissions"
+  ],
+  "checked": "2026-10-04"
+}

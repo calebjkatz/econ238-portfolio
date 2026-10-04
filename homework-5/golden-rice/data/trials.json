@@ -1,0 +1,57 @@
+[
+  {
+    "trial": "IRRI \u00b7 2015 wet",
+    "golden_plot_g": 337.9,
+    "conventional_plot_g": 327.5,
+    "p_value": 0.121,
+    "yield_ratio": 1.0317557251908396,
+    "source_table": "Tab1",
+    "source": "https://doi.org/10.1038/s41598-021-82001-0",
+    "golden_reported_plusminus_g": 4.9,
+    "conventional_reported_plusminus_g": 11.4
+  },
+  {
+    "trial": "IRRI \u00b7 2016 dry",
+    "golden_plot_g": 807.5,
+    "conventional_plot_g": 821.0,
+    "p_value": 0.711,
+    "yield_ratio": 0.9835566382460414,
+    "source_table": "Tab1",
+    "source": "https://doi.org/10.1038/s41598-021-82001-0",
+    "golden_reported_plusminus_g": 6.3,
+    "conventional_reported_plusminus_g": 35.8
+  },
+  {
+    "trial": "IRRI \u00b7 2016 wet",
+    "golden_plot_g": 705.6,
+    "conventional_plot_g": 878.1,
+    "p_value": 0.014,
+    "yield_ratio": 0.8035531260676461,
+    "source_table": "Tab1",
+    "source": "https://doi.org/10.1038/s41598-021-82001-0",
+    "golden_reported_plusminus_g": 12.0,
+    "conventional_reported_plusminus_g": 68.0
+  },
+  {
+    "trial": "PhilRice \u00b7 2016 dry",
+    "golden_plot_g": 376.8,
+    "conventional_plot_g": 404.9,
+    "p_value": 0.583,
+    "yield_ratio": 0.930600148184737,
+    "source_table": "Tab2",
+    "source": "https://doi.org/10.1038/s41598-021-82001-0",
+    "golden_reported_plusminus_g": 5.0,
+    "conventional_reported_plusminus_g": 17.4
+  },
+  {
+    "trial": "PhilRice \u00b7 2016 wet",
+    "golden_plot_g": 654.7,
+    "conventional_plot_g": 681.3,
+    "p_value": 0.658,
+    "yield_ratio": 0.9609569939820932,
+    "source_table": "Tab2",
+    "source": "https://doi.org/10.1038/s41598-021-82001-0",
+    "golden_reported_plusminus_g": 9.8,
+    "conventional_reported_plusminus_g": 55.5
+  }
+]
