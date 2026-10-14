@@ -12,7 +12,8 @@ This is a **proposal**, not an enacted program, cost-benefit calculation, or pre
 - [x] Feasible environmental bargain selected
 - [x] Public GitHub proposition page drafted, with arguments for and against and citations
 - [x] Anonymous voting interface and secure Google Sheets recording code added at `ballot/`
-- [ ] Activate Apps Script backend and connect the `/exec` URL (requires Google owner authorization)
+- [x] Google Apps Script `/exec` URL added to the ballot config on October 14, 2026
+- [ ] Verify `setupPoll()` created the private Google Sheet and web-app deployment permits anonymous access
 - [ ] Test real submission and delete the test record
 - [ ] One-page public poster with QR code, printed and hung in public
 - [ ] Photograph poster in place
@@ -20,7 +21,7 @@ This is a **proposal**, not an enacted program, cost-benefit calculation, or pre
 - [ ] Final vote totals and interesting comments documented
 - [ ] Short reflection and Blackboard submission
 
-**Voting note:** A static GitHub Pages site cannot store anonymous votes on its own. A real form service and responses database must be connected before the public ballot can open. Please do not substitute simulated votes, browser-local counts or unrecorded clicks.
+**Voting note:** The GitHub ballot now targets the user-supplied Apps Script `/exec` URL. **End-to-end vote recording is not yet independently verified**. A static GitHub Pages site cannot store votes alone: the Apps Script must be deployed as *Execute as me; access Anyone* and `setupPoll()` must have created the private results sheet. Submit one test vote, check the private Responses sheet, then delete only the test row before recruiting respondents. Do not report simulated votes, browser-local counts, or unrecorded clicks.
 
 **Timing note:** Homework 7 is due October 18, 2026 before 6:59 p.m., and the assignment also asks for the poster to remain up for a week. Confirm with the course staff how to handle the short remaining interval.
 
