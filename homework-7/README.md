@@ -11,7 +11,9 @@ This is a **proposal**, not an enacted program, cost-benefit calculation, or pre
 ### Status — October 14, 2026
 - [x] Feasible environmental bargain selected
 - [x] Public GitHub proposition page drafted, with arguments for and against and citations
-- [ ] Anonymous voting endpoint connected and tested (not available on the current page)
+- [x] Anonymous voting interface and secure Google Sheets recording code added at `ballot/`
+- [ ] Activate Apps Script backend and connect the `/exec` URL (requires Google owner authorization)
+- [ ] Test real submission and delete the test record
 - [ ] One-page public poster with QR code, printed and hung in public
 - [ ] Photograph poster in place
 - [ ] At least 12 different votes collected, including YES / NO / YES, IF… conditions
