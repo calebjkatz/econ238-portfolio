@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#092a35">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Anonymous classroom vote: keep the four lower Snake River dams and fund additional salmon habitat restoration.">
+<title>Vote — Keep the Dams. Restore Salmon Habitat. | ECON 238</title>
+<style>
+:root{--ink:#12373c;--teal:#116d69;--navy:#092a35;--mint:#e8f4ef;--line:#c9ddd8;--muted:#546e70;--cream:#f8f8f3}
+*{box-sizing:border-box}html{color-scheme:light}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+header{background:var(--navy);color:#eaf5f2;padding:20px 24px}header .top{max-width:760px;margin:auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.75rem;letter-spacing:.12em;font-weight:700}header a{color:#eaf5f2;text-decoration:none}
+main{max-width:760px;padding:52px 24px 80px;margin:auto}
+.eyebrow{text-transform:uppercase;letter-spacing:.17em;font-size:.76rem;font-weight:800;color:var(--teal);margin:0 0 12px}
+h1{font:normal clamp(2.3rem,6vw,3.6rem)/1.1 Georgia,"Times New Roman",serif;letter-spacing:-.04em;margin:0 0 18px}
+h2{font:normal 1.65rem/1.2 Georgia,serif;margin:0 0 12px}
+.intro{color:var(--muted);font-size:1rem;margin:0 0 28px}
+.ballot{background:white;border:1px solid var(--line);border-radius:15px;overflow:hidden;box-shadow:0 12px 35px #103f3f12}
+.question{padding:32px;border-bottom:1px solid var(--line)}.question p{margin:0;font-size:1.08rem;line-height:1.72}
+.explainer{padding:24px 32px;border-bottom:1px solid var(--line);background:#f4faf7;font-size:.94rem}
+.explainer p{margin:0 0 11px}.explainer p:last-child{margin-bottom:0}
+form{padding:28px 32px 35px}fieldset{padding:0;border:0;margin:0;width:100%}legend{font-weight:800;font-size:1rem;margin-bottom:15px}
+.option{display:flex;align-items:center;gap:15px;padding:15px 18px;border:1.5px solid var(--line);border-radius:9px;margin:0 0 12px;cursor:pointer;font-weight:750}
+.option:has(input:checked){border-color:var(--teal);background:var(--mint)}.option input{accent-color:var(--teal);width:19px;height:19px;flex-shrink:0}
+.conditional{display:none;margin:16px 0 24px}.conditional.visible{display:block}label[for="condition"]{display:block;font-weight:700;margin:0 0 7px}textarea{border:1.5px solid #93b4b0;border-radius:8px;width:100%;min-height:104px;padding:11px;font:inherit;resize:vertical}textarea:focus,input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #e5a855;outline-offset:2px}
+button{border:0;padding:15px 26px;border-radius:8px;background:var(--teal);color:white;font:700 1rem system-ui;cursor:pointer;margin-top:7px}button:hover{background:#084b4a}button:disabled{cursor:not-allowed;background:#a4b8b4}
+#state{padding:12px 15px;margin:0 0 20px;border-radius:8px;background:#fdf2d8;color:#55401d;font-size:.93rem}
+#state.ready{background:#e7f4ef;color:#1c584f}.tiny{font-size:.78rem;color:var(--muted);max-width:540px;margin-top:15px}
+.back{display:inline-block;margin-top:26px;color:var(--teal);font-weight:650}
+@media(max-width:560px){main{padding:32px 15px 55px}.question,.explainer,form{padding:21px}.option{padding:13px}}
+</style>
+<script src="./config.js" defer></script>
+<script src="./ballot.js" defer></script>
+</head>
+<body>
+<header><div class="top"><a href="../">CALEB KATZ · ECON 238</a><span>WEEK 7 · PUBLIC BALLOT</span></div></header>
+<main>
+<p class="eyebrow">Classroom ballot initiative</p>
+<h1>Keep the Dams.<br>Restore Salmon Habitat.</h1>
+<p class="intro">Please consider the proposed environmental bargain and select one response. This is a class project, not an official government election.</p>
+<div class="ballot">
+<section class="question" aria-labelledby="question-heading"><p class="eyebrow">The proposition</p><h2 id="question-heading">What a YES vote would approve</h2>
+<p>Should Congress require the Bonneville Power Administration to spend an additional $50 million annually for ten years on Snake River salmon habitat restoration, funded through wholesale electricity rates, while retaining the four lower Snake River dams in operation? Funds would target cold-water refuges, fish-passage barriers, stream restoration and independently measured outcomes. Existing fish-protection laws would remain in force; Congress would review the program after ten years.</p></section>
+<section class="explainer" aria-label="Brief explanation"><p><strong>YES:</strong> Keep the four lower Snake River dams in operation, while making a new $500 million, ten-year habitat investment funded through BPA wholesale power rates.</p><p><strong>NO:</strong> Reject this additional funding requirement; existing law and restoration programs would remain unchanged.</p><p><strong>YES, IF…:</strong> Support the general bargain only if specified conditions are met. Your suggested change will be recorded with your vote.</p></section>
+<form id="vote-form" method="POST" novalidate>
+<input type="hidden" name="poll_id" value="econ238-snake-river-2026">
+<input type="hidden" name="browser_token" id="browser-token">
+<div id="state" role="status" aria-live="polite">Checking whether voting is open…</div>
+<fieldset id="ballot-fields" disabled><legend>Would you take this deal?</legend>
+<label class="option"><input type="radio" name="vote" value="yes" required><span>YES</span></label>
+<label class="option"><input type="radio" name="vote" value="no" required><span>NO</span></label>
+<label class="option"><input type="radio" name="vote" value="yes_if" required><span>YES, IF…</span></label>
+<div id="conditional-wrap" class="conditional"><label for="condition">What would have to change?</label><textarea id="condition" name="condition" maxlength="400" placeholder="Describe the condition under which you would accept the proposal."></textarea></div>
+<button id="submit-vote" type="submit" disabled>Submit anonymous vote →</button>
+<p class="tiny">No name, email, or account is requested. A random token stored in your browser helps prevent repeat submissions from that same browser. This cannot guarantee that every response comes from a different person. Votes are recorded privately and tallied for the class assignment.</p>
+</fieldset>
+</form>
+</div>
+<a class="back" href="../">← Read both sides of the proposal</a>
+</main>
+</body>
+</html>
