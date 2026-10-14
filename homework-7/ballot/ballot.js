@@ -42,7 +42,7 @@
   form.action = endpoint;
   fields.disabled = false;
   button.disabled = false;
-  setState("Voting is open. Your response will be submitted securely and a confirmation page will appear.", true);
+  setState("The ballot is connected. After submitting, look for a confirmation that your vote was recorded. If an error appears, it was not confirmed.", true);
 
   form.addEventListener("submit", function (event) {
     const selected = form.querySelector('input[name="vote"]:checked');
