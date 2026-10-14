@@ -31,3 +31,9 @@ A data story on weather mortality, flood exposure, and adaptation, with a downlo
 [Golden Rice: Same Land. More Nourishment?](homework-5/golden-rice/)
 
 An interactive comparison of nutrition from existing farmland, with measured yield comparisons, history, beneficiaries, and adoption tradeoffs. Class-list topic FOOD-59.
+
+## Week Seven — Drilling for Achievable Ideas
+
+[Keep the Dams. Restore Salmon Habitat.](homework-7/)
+
+A proposed ten-year, $500 million **additional** salmon-habitat investment, paid through BPA wholesale electricity rates, while preserving the four lower Snake River dams. The page weighs the benefits, costs, strongest counterargument, and reasons the bargain does not already exist. **Anonymous voting, poster display, and results are still pending.**
