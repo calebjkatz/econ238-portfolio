@@ -2,7 +2,7 @@
 
 ## Keep the Dams. Restore Salmon Habitat.
 
-[**Open the public proposition, arguments, and poll results**](./index.html) | [**Vote on the proposal**](./ballot/) | [**Submission summary**](./submission.md)
+[**Open the public proposition, arguments, and poll results**](./index.html) | [**Vote on the proposal**](./ballot/) | [**Printable QR poster**](./poster.svg) | [**Submission summary**](./submission.md)
 
 **Proposed deal:** Preserve the four lower Snake River federal dams while requiring the Bonneville Power Administration to invest an **additional $50 million per year for ten years ($500 million)** in salmon habitat restoration, recovered through wholesale electricity rates. Congress would authorize the ten-year commitment, with independent evaluation and existing legal protections preserved. This is a **proposal**, not a law or a proven salmon-recovery prediction.
 
@@ -24,7 +24,7 @@
 - [x] Working anonymous vote collection (Google Apps Script and private Google Sheet)
 - [x] 12 ballot responses recorded
 - [x] Aggregated vote report, de-identified criticism, and reflection published
-- [x] Single-page, QR-equipped print-ready poster designed (supplied as downloadable PDF with ChatGPT)
+- [x] Single-page, QR-equipped print-ready poster designed and published as SVG; PDF also supplied
 - [ ] Poster actually printed and displayed publicly for one week **(user must confirm)**
 - [ ] Photograph of printed poster hanging in public **(user must provide)**
 - [ ] Final Blackboard upload (poster photograph, link, totals, comments, reflection) **(not verified)**
