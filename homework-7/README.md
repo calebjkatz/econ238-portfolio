@@ -2,27 +2,33 @@
 
 ## Keep the Dams. Restore Salmon Habitat.
 
-[**Open the public proposition page**](./index.html)
+[**Open the public proposition, arguments, and poll results**](./index.html) | [**Vote on the proposal**](./ballot/) | [**Submission summary**](./submission.md)
 
-**Proposed deal:** Preserve the four lower Snake River federal dams while requiring the Bonneville Power Administration (BPA) to invest an **additional $50 million per year for ten years ($500 million)** in salmon habitat restoration, with the added cost recovered through wholesale electricity rates. Congress would authorize the ten-year commitment, and the program would undergo independent evaluation. Existing legal protections remain in force.
+**Proposed deal:** Preserve the four lower Snake River federal dams while requiring the Bonneville Power Administration to invest an **additional $50 million per year for ten years ($500 million)** in salmon habitat restoration, recovered through wholesale electricity rates. Congress would authorize the ten-year commitment, with independent evaluation and existing legal protections preserved. This is a **proposal**, not a law or a proven salmon-recovery prediction.
 
-This is a **proposal**, not an enacted program, cost-benefit calculation, or prediction of fish-population recovery.
+## Ballot results — checked October 18, 2026
 
-### Status — October 14, 2026
+| Choice | Number | Share |
+|---|---:|---:|
+| YES | 11 | 91.7% |
+| NO | 0 | 0.0% |
+| YES, IF… | 1 | 8.3% |
+| **Total** | **12** | **100%** |
+
+**Most interesting condition:** A respondent would accept the deal only if total funding were reduced from $500 million to $100 million over ten years. All 12 records had separate anonymous browser tokens; these cannot prove the voters were 12 distinct people. The private raw responses and tokens are not published. This is a small, self-selected classroom poll, not a representative public survey. The voting system is confirmed to have stored live responses.
+
+## Project completion status
+
 - [x] Feasible environmental bargain selected
-- [x] Public GitHub proposition page drafted, with arguments for and against and citations
-- [x] Anonymous voting interface and secure Google Sheets recording code added at `ballot/`
-- [x] Google Apps Script `/exec` URL added to the ballot config on October 14, 2026
-- [ ] Verify `setupPoll()` created the private Google Sheet and web-app deployment permits anonymous access
-- [ ] Test real submission and delete the test record
-- [ ] One-page public poster with QR code, printed and hung in public
-- [ ] Photograph poster in place
-- [ ] At least 12 different votes collected, including YES / NO / YES, IF… conditions
-- [ ] Final vote totals and interesting comments documented
-- [ ] Short reflection and Blackboard submission
+- [x] Public proposition with competing arguments, tradeoffs, and sources
+- [x] Working anonymous vote collection (Google Apps Script and private Google Sheet)
+- [x] 12 ballot responses recorded
+- [x] Aggregated vote report, de-identified criticism, and reflection published
+- [x] Single-page, QR-equipped print-ready poster designed (supplied as downloadable PDF with ChatGPT)
+- [ ] Poster actually printed and displayed publicly for one week **(user must confirm)**
+- [ ] Photograph of printed poster hanging in public **(user must provide)**
+- [ ] Final Blackboard upload (poster photograph, link, totals, comments, reflection) **(not verified)**
 
-**Voting note:** The GitHub ballot now targets the user-supplied Apps Script `/exec` URL. **End-to-end vote recording is not yet independently verified**. A static GitHub Pages site cannot store votes alone: the Apps Script must be deployed as *Execute as me; access Anyone* and `setupPoll()` must have created the private results sheet. Submit one test vote, check the private Responses sheet, then delete only the test row before recruiting respondents. Do not report simulated votes, browser-local counts, or unrecorded clicks.
+**Important timing:** Blackboard and GitHub submission are due before **6:59 p.m. Sunday, October 18, 2026**. The assignment requires the poster to be hung for a full week; do not claim this requirement has been completed without the actual display. If the poster has not yet been up a week, follow the instructor's exemption/course staff guidance.
 
-**Timing note:** Homework 7 is due October 18, 2026 before 6:59 p.m., and the assignment also asks for the poster to remain up for a week. Confirm with the course staff how to handle the short remaining interval.
-
-**Sources** are linked and annotated on the proposition page.
+[Public project](https://calebjkatz.github.io/econ238-portfolio/homework-7/) · [Public ballot](https://calebjkatz.github.io/econ238-portfolio/homework-7/ballot/)
