@@ -36,4 +36,4 @@ An interactive comparison of nutrition from existing farmland, with measured yie
 
 [Keep the Dams. Restore Salmon Habitat.](homework-7/)
 
-A proposed ten-year, $500 million **additional** salmon-habitat investment, paid through BPA wholesale electricity rates, while preserving the four lower Snake River dams. The page weighs the benefits, costs, strongest counterargument, and reasons the bargain does not already exist. **Anonymous voting, poster display, and results are still pending.**
+A proposed ten-year, $500 million **additional** salmon-habitat investment, paid through BPA wholesale electricity rates, while preserving the four lower Snake River dams. The page weighs the benefits, costs, strongest counterargument, and reasons the bargain does not already exist. **Final ballot: 12 votes (11 YES, 0 NO, 1 YES, IF…).** Aggregated results, voter condition, and reflection are on the project page. The poster photo and Blackboard submission still require verification.
