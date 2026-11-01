@@ -43,3 +43,9 @@ A proposed ten-year, $500 million **additional** salmon-habitat investment, paid
 [The Stone That Paid for School — and Helped Fund a War](homework-8/)
 
 An audio lecture on coltan, conflict, and the institutions governing resource wealth in the Democratic Republic of the Congo. **[Listen on Substack](https://calebjkatz.substack.com/p/the-stone-that-paid-for-school-and)** (approximately 35:54).
+
+## Week Nine — Environmental and Restorative Justice
+
+[A Plaque, a Park, or a Property Right?](homework-9/)
+
+An interactive exhibit examining land acknowledgments, Indigenous property rights, and the economic tradeoffs of tribal stewardship of national parks. Includes a qualitative policy-choice exercise and a proposed ten-year co-management evaluation.
