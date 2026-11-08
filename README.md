@@ -55,4 +55,4 @@ An interactive exhibit examining land acknowledgments, Indigenous property right
 
 [Small Classes. Nonnegotiable.](homework-10/)
 
-A public NOTICE proposing one small, faculty-led discussion course per undergraduate every semester at the University of Rochester, with explicit analysis of costs, tradeoffs, and institutional identity.
+A public NOTICE proposing recurring small-group discussions with faculty and working professionals at the University of Rochester, weighing costs, alternatives, and institutional identity.
