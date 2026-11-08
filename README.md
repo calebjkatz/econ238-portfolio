@@ -49,3 +49,10 @@ An audio lecture on coltan, conflict, and the institutions governing resource we
 [A Plaque, a Park, or a Property Right?](homework-9/)
 
 An interactive exhibit examining land acknowledgments, Indigenous property rights, and the economic tradeoffs of tribal stewardship of national parks. Includes a qualitative policy-choice exercise and a proposed ten-year co-management evaluation.
+
+
+## Week Ten — MOATS
+
+[Small Classes. Nonnegotiable.](homework-10/)
+
+A public NOTICE proposing one small, faculty-led discussion course per undergraduate every semester at the University of Rochester, with explicit analysis of costs, tradeoffs, and institutional identity.
